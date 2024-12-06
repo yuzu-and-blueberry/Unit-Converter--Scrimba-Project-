@@ -21,6 +21,7 @@ convertEl.addEventListener('click', function() {
     lengthConverter()
     volumeConverter()
     massConverter()
+    inputEl.value = null;
 })
 
 function lengthConverter() {
